@@ -1,32 +1,11 @@
 
-
-/* GRANI GLOBAL BRAND & HERO OVERRIDES */
-.topline{font-size:12.5px;letter-spacing:.025em;border-bottom:1px solid rgba(184,154,91,.20)}
-.header-inner{height:92px}
-.site-header .brand{
+/* GRANI FOOTER BRAND */
+.brand-footer{
   width:250px;
   height:76px;
-  flex:0 0 250px;
+  display:block;
+  margin-bottom:20px;
   background:url('/assets/grani-logo-new.svg') left center/contain no-repeat;
 }
-.site-header .brand-logo{
-  opacity:0;
-  width:250px;
-  height:76px;
-}
-.hero h1{
-  font-size:clamp(42px,3.9vw,56px);
-  max-width:900px;
-  line-height:1.06;
-}
-.hero .lead{max-width:760px}
-@media(max-width:980px){
-  .nav{top:92px}
-}
-@media(max-width:680px){
-  .header-inner{height:76px}
-  .site-header .brand{width:190px;height:58px;flex-basis:190px}
-  .site-header .brand-logo{width:190px;height:58px}
-  .nav{top:76px}
-  .hero h1{font-size:38px;line-height:1.08;max-width:100%}
-}
+.brand-footer>*{display:none!important}
+@media(max-width:680px){.brand-footer{width:210px;height:64px}}
