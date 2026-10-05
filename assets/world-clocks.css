@@ -3,8 +3,8 @@
 .world-time-heading .eyebrow{color:#92703b;margin-bottom:9px}
 .world-time-heading h2{font:500 clamp(29px,3.5vw,41px) Georgia,"Times New Roman",serif;line-height:1.15;margin:0;color:var(--navy)}
 .world-clock-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;max-width:990px;margin:auto}
-.world-clock{display:flex;align-items:center;flex-direction:column;text-align:center;padding:26px 20px 24px;border:1px solid #e6e2d8;border-radius:var(--radius);background:#fff;box-shadow:0 8px 24px rgba(7,23,37,.035)}
-.world-clock-dial{display:block;width:168px;max-width:100%;height:auto;aspect-ratio:1;filter:drop-shadow(0 5px 5px rgba(7,23,37,.12))}
+.world-clock{display:flex;align-items:center;flex-direction:column;text-align:center;padding:26px 20px 24px;border:0;background:transparent;box-shadow:none}
+.world-clock-dial{display:block;width:150px;max-width:100%;height:auto;aspect-ratio:1;filter:drop-shadow(0 5px 5px rgba(7,23,37,.12))}
 .clock-tick-hour{stroke:#d5bf8a;stroke-width:1.8;stroke-linecap:round}
 .clock-tick-minute{stroke:#aac0cb;stroke-width:.9;stroke-opacity:.65}
 .clock-numerals{fill:#f4f1e8;text-anchor:middle;font:500 16px Georgia,"Times New Roman",serif}
@@ -16,5 +16,5 @@
 .world-clock-time{display:block;font:500 31px/1.25 Georgia,"Times New Roman",serif;font-variant-numeric:tabular-nums;color:var(--navy);letter-spacing:.02em;min-width:5ch}
 .world-clock-date{display:block;font-size:13px;line-height:1.6;color:var(--muted);margin-top:5px;font-variant-numeric:tabular-nums}
 .world-clock-note{text-align:center;color:var(--muted);font-size:14px;margin:20px 0 0}
-@media(max-width:680px){.world-time{padding:44px 0}.world-time-heading{margin-bottom:24px}.world-clock-grid{grid-template-columns:1fr;gap:16px;max-width:380px}.world-clock{padding:22px 18px}.world-clock-dial{width:156px}.world-clock h3{margin-top:13px}}
+@media(max-width:680px){.world-time{padding:44px 0}.world-time-heading{margin-bottom:24px}.world-clock-grid{grid-template-columns:1fr;gap:16px;max-width:380px}.world-clock{padding:22px 18px}.world-clock-dial{width:139px}.world-clock h3{margin-top:13px}}
 @media(prefers-reduced-motion:reduce){.clock-second-hand{display:none}}
